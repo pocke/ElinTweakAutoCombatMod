@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>Tweak AutoCombat</title>
+  <id>me.pocke.tweak-auto-combat</id>
+  <author>Masataka Pocke Kuwabara</author>
+  <loadPriority>100</loadPriority>
+  <version>0.23.129</version>
+  <description>
+TBD
+  </description>
+</Meta>
