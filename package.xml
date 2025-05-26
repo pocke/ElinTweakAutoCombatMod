@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>Tweak AutoCombat</title>
+  <title>Tweak Auto Combat</title>
   <id>me.pocke.tweak-auto-combat</id>
   <author>Masataka Pocke Kuwabara</author>
   <loadPriority>100</loadPriority>
   <version>0.23.129</version>
   <description>
-TBD
+(English is below Japanese)
+
+自動戦闘の挙動を調整するためのModです。
+
+特定のアクションを自動戦闘時に実行しないよう設定できます。
+デフォルトでは何も設定されていないため、明示的に設定しなければ自動戦闘の挙動は変化しません。
+
+[h2]設定[/h2]
+
+「SteamLibrary\steamapps\common\Elin\BepInEx\config\me.pocke.tweak-auto-combat.cfg」から設定できます。
+
+[h3]IgnoreActIds[/h3]
+
+IgnoreActIds に、実行しないアクションのIDをカンマ区切りで指定します。
+次はスウォーム、斬撃無双、突進のIDを指定して、自動戦闘でスタミナを消費しないようにする設定例です。
+
+[code]
+[Settings]
+IgnoreActIds = ActSwarm,ActBladeStorm,ActRush
+[/code]
+
+IDは https://docs.google.com/spreadsheets/d/16-LkHtVqjuN9U0rripjBn-nYwyqqSGg_/edit?gid=1766305727#gid=1766305727 の alias 列を参照してください。
+
+[hr][/hr]
+
+This is a mod to adjust the behavior of auto combat.
+
+You can configure it to prevent specific actions from being executed during auto combat.
+By default, nothing is set, so the behavior of auto combat will not change unless you explicitly configure it.
+
+[h2]Configuration[/h2]
+
+You can configure it from:
+"SteamLibrary\steamapps\common\Elin\BepInEx\config\me.pocke.tweak-auto-combat.cfg"
+
+[h3]IgnoreActIds[/h3]
+
+For IgnoreActIds, specify the IDs of actions you do not want to execute, separated by commas.
+The following is an example configuration that specifies the IDs for Swarm, Bladestorm, and Rush, so that stamina is not consumed during auto combat.
+
+[code]
+[Settings]
+IgnoreActIds = ActSwarm,ActBladeStorm,ActRush
+[/code]
+
+Refer to the "alias" column in the following spreadsheet for IDs:
+https://docs.google.com/spreadsheets/d/16-LkHtVqjuN9U0rripjBn-nYwyqqSGg_/edit?gid=1766305727#gid=1766305727
   </description>
 </Meta>
