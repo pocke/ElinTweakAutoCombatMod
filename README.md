@@ -1,4 +1,4 @@
-# Elin Tweak AUto Combat Mod
+# Elin Tweak Auto Combat Mod
 
 This is a mod to adjust the behavior of auto combat.
 
